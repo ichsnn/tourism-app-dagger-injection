@@ -2,6 +2,7 @@ package com.dicoding.tourismapp.di
 
 import com.dicoding.tourismapp.MainActivity
 import com.dicoding.tourismapp.core.di.CoreComponent
+import com.dicoding.tourismapp.detail.DetailTourismActivity
 import com.dicoding.tourismapp.favorite.FavoriteFragment
 import com.dicoding.tourismapp.home.HomeFragment
 import dagger.Component
@@ -20,4 +21,5 @@ interface AppComponent {
     fun inject(fragment: FavoriteFragment)
     fun inject(fragment: HomeFragment)
     fun inject(activity: MainActivity)
+    fun inject(activity: DetailTourismActivity)
 }
